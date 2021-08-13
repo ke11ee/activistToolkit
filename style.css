@@ -1,0 +1,173 @@
+* {margin: 0px;
+padding: 0px;}
+
+
+/* headers */
+
+h1 {
+  font-size: 2em;
+  text-shadow: 2px 1px rgb(95, 94, 94);
+  color: rgb(41, 83, 41);
+  background: transparent url(assets/fallingMoney.jpg);
+  padding: 50px;
+}
+
+/* entire page background */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  font-size: 120%;
+  background-color:  rgb(52, 82, 40);
+}
+
+/* text styling */
+h2 {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-shadow: 2px 1px rgb(51, 49, 49);
+ color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 150%;
+}
+
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 2px 1px rgb(51, 49, 49);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 120%;
+}
+
+
+/* styling the images */
+#img1 {
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+  max-height: 700px;
+  flex-basis: 100%;
+  padding: 10px;
+  border-radius: 35px;
+  border-style: double;
+  border-color: rgb(28, 58, 28);
+}
+
+#img2 {
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+  max-height: 700px;
+  flex-basis: 100%;
+  padding: 10px;
+  border-radius: 35px;
+  border-style: double;
+  border-color: rgb(30, 65, 30);
+}
+
+#img3 {
+  margin: auto;
+  display: block;
+  max-width: 1000px;
+  max-height: 700px;
+  flex-basis: 100%;
+  padding: 10px;
+  border-radius: 35px;
+  border-style: double;
+  border-color: rgb(30, 65, 30);
+}
+
+
+/* styling the nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 83, 41);
+  overflow: hidden;
+}
+
+li {
+ float: left;
+}
+
+li a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 1em;
+  padding: 1em;
+  }
+
+li a:hover {
+  background-color:rgb(80, 153, 73);
+}
+
+/* centering my youtube videos */
+#youtube1 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+#youtube2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+#youtube3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+#youtube4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+#youtube5 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+#youtube6 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+
+
+/* button edits */
+button{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 30px;
+	background-color: rgb(41, 83, 41);
+	color: white;
+	border: solid white;
+	border-width: 3px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+button:hover{
+	background-color: rgb(80, 153, 73);
+}
+@media screen and (max-width: 1317px) {
+  .flex-container{
+    flex-wrap: wrap;
+  }
+}
